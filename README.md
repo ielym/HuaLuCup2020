@@ -7,8 +7,9 @@
 本赛题基于这些数据，初赛需要识别<b>吸烟</b>，<b>打电话</b>， <b>正常</b>三个类别，复赛额外添加了同时吸烟打电话的<b>吸烟打电话</b>类别，难点在于数据集中人物清晰度有限，而且人物的像素大小不一，。
 
 <p float="left">
-  <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/ME-DIS-3.jpg" height="200" />
-  <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/ME-DIS-3.jpg" height="200" /> 
+  <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/1.jpg" height="200" />
+  <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/2.jpg" height="200" /> 
+  <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/6.jpg" height="200" /> 
 </p>
 
 
