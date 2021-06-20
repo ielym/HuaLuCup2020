@@ -7,11 +7,11 @@
 
 <center>
 <figure>
-<img src="https://img2018.cnblogs.com/blog/1735896/202001/1735896-20200116162140471-237299356.png" />
+<img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/ME-DIS-3.jpg" />
 ·
 ·
 ·
-<img src="https://img2018.cnblogs.com/blog/1735896/202001/1735896-20200116162140471-237299356.png" />
+<img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/ME-DIS-3.jpg" />
 </figure>
 </center>
 
