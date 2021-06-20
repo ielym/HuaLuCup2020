@@ -61,4 +61,4 @@
 特征的表达。
 * 初赛最终网络结构
 
-<img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/12.png" width="90%" />
+<img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/12.png" width="100%" />
