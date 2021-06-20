@@ -48,7 +48,7 @@
 * 结合上述数据分析过程，认为对于数据分布差异较大的情况下，不适合使用<b>Softmax</b>进行分类，转而使用<b>SVM</b>分类器增大类间距，并使用两个二分类器 :
 <b>是否是"正常类别"</b>，<b>"吸烟"还是"打电话"</b>，这种方案获得了线上0.8的评分，截止官方更换数据集，排名在第5名。
 
-<img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/11.png" height="300" />
+<img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/11.png" width="100%" />
 
 ## 初赛阶段二
 ### 数据分析
