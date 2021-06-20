@@ -78,7 +78,8 @@
 
 <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/16.png" width="100%" />
 
-<img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/17.png" height="300" />
-
-<img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/18.png" height="300" />
+<p float="left">
+  <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/17.png" width="20%" />
+  <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/18.png" width="80%" /> 
+</p>
 
