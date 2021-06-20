@@ -6,8 +6,10 @@
 行为规范，即指某些特定的场景会对人物的行为做出特定的限制，比如加油站禁止吸烟，驾驶员禁止打电话，博物馆禁止拍照等。随着计算机人工智能的发展，这些禁止行为或者不文明行为都可通过基于视频监控的行为检测算法进行监控、发现以及适当时给与警告。
 
 <center class="half">
-<img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/ME-DIS-3.jpg" width="30%"/>  <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/ME-DIS-3.jpg" width="30%"/>
+<img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/ME-DIS-3.jpg" width="30%"/><img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/ME-DIS-3.jpg" width="30%"/>
 </center>
+
+![](https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/ME-DIS-3.jpg)| ![](https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/ME-DIS-3.jpg)
 
 本赛题基于这些数据，初赛需要识别<b>吸烟</b>，<b>打电话</b>， <b>正常</b>三个类别，复赛额外添加了同时吸烟打电话的<b>吸烟打电话</b>类别，难点在于数据集中人物清晰度有限，而且人物的像素大小不一，。
 
