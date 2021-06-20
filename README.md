@@ -83,7 +83,7 @@
   <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/18.png" height="180" /> 
 </p>
 
-* 训练集中 <b>干扰图像</b> 的数量较少，因此我们爬取并裁剪了手机，香烟的图像，并在行人重识别数据集上进行了复制粘贴来进行扩充。
+* 训练集中 <b>干扰图像</b> 的数量较少，因此我们爬取并裁剪了手机，香烟的图像，并在行人重识别数据集上通过复制粘贴来进行扩充。
 
 <p float="left">
   <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/19.png" height="200" /> 
@@ -91,3 +91,16 @@
 </p>
 
 ### 模型设计
+
+* 复赛开始阶段，我们延续了初赛的网络结构，即引入<b>CBAM</b>模块。但经过实际评分结果和特征图的可视化分析，我们认为<b>CBAM</b>虽然能够增强关键
+特征的表达，但是复赛数据中存在<b>图像中出现香烟和手机，但没有在人手里的干扰图像</b>，对于这种情况，<b>CBAM</b>反而会干扰模型正常的学习过程。
+
+* 为了仍然保持模型对关键区域的特征表达，我们使用了<b>self-attention</b>注意力机制。
+
+<img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/21.png" width="100%" />
+
+* 通过实验发现，self-attention对于线上评分的贡献有限，且会增加一定的额外计算开销，因此在最终提交的模型中我们去掉了全部额外注意力机制，转而
+对<b>吸烟，打电话区域</b>像素值过少的情况进行了研究，并且基于<b>ResNext101_32x8d</b>进行了多尺度的特征融合，最终网络结构如下：
+
+<img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/22.png" width="100%" />
+
