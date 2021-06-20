@@ -20,10 +20,27 @@
 
 ## 初赛阶段一
 ### 数据分析
-初赛更换高质量数据集之前，主要难点在于训练集和测试集边缘分布差距较大，且训练集中存在大量噪声图像。其中训练集中<b>正常</b>类别和测试集的分布
+* 初赛更换高质量数据集之前，主要难点在于训练集和测试集边缘分布差距较大，且训练集中存在大量噪声图像。其中训练集中<b>正常</b>类别和测试集的分布
 比较接近，都是监控场景下的图像。而训练集中的<b>吸烟</b>和<b>打电话</b>类别多为网络图像或影视截图，测试集中仍然以监控场景下的图像为主。
 
 <p float="left">
   <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/4.jpg" height="200" />
   <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/5.jpg" height="200" /> 
 </p>
+
+为了缓解背景差距较大（监控场景和网络图像/影视截图），使用了MixUP数据增强策略来解决这个问题。
+
+<p float="left">
+  <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/7.png" height="200" />
+  <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/8.png" height="200" /> 
+</p>
+
+* 此外，对于样本类别分布和图像高宽比也进行了统计。针对标签分布不一致的问题，使用了翻转，旋转，高斯噪声等方式进行了扩充；针对图像尺度差距
+较大，以及高宽比差距较大的问题，分别使用了多尺度输入图像和Padding的方式进行训练。
+
+<p float="left">
+  <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/9.jpg" height="200" />
+  <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/10.jpg" height="200" /> 
+</p>
+
+### 数据分析
