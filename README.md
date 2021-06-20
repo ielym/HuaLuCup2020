@@ -85,7 +85,9 @@
 
 * 训练集中 <b>干扰图像</b> 的数量较少，因此我们爬取并裁剪了手机，香烟的图像，并在行人重识别数据集上进行了复制粘贴来进行扩充。
 
-<img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/19.png" height="200" /> 
-<img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/20.png" height="200" /> 
+<p float="left">
+  <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/19.png" height="200" /> 
+  <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/20.png" height="200" /> 
+</p>
 
 ### 模型设计
