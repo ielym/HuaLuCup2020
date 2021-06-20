@@ -1,6 +1,9 @@
 # HuaLuCup2020
 2020中国华录杯数据湖算法大赛 吸烟打电话赛道 rank4
 
+* [模型权重](https://pan.baidu.com/s/1wMMSkKVjPtQFQuwvrOsd8Q) 提取码：kmhw 
+
+
 ## 赛题描述
 * 比赛连接 [2020中国华录杯·数据湖算法大赛—定向算法赛（吸烟打电话检测）](https://dev.ehualu.com/dev/home/competition/competitionDetail?competitionId=3)
 
