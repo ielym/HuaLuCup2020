@@ -62,3 +62,15 @@
 * 初赛最终网络结构如下：
 
 <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/12.png" width="100%" />
+
+## 复赛阶段
+### 数据分析
+* 复赛阶段添加了<b>同时吸烟打电话</b>的类别。此外，还增加了<b>图像中出现香烟和手机，但没有在人手里的干扰图像</b>，以及人在图像中所占比例非常小的情况。
+
+<p float="left">
+  <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/15.jpg" height="200" />
+  <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/13.jpg" height="200" /> 
+  <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/14.jpg" height="200" /> 
+</p>
+
+
