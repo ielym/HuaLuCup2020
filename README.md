@@ -1,7 +1,7 @@
 # HuaLuCup2020
 2020中国华录杯数据湖算法大赛 吸烟打电话赛道 rank4
 
-* [模型权重](https://pan.baidu.com/s/1wMMSkKVjPtQFQuwvrOsd8Q) 提取码：kmhw 
+* [模型权重下载(百度云)](https://pan.baidu.com/s/1wMMSkKVjPtQFQuwvrOsd8Q) 提取码：kmhw 
 
 
 ## 赛题描述
