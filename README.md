@@ -43,4 +43,9 @@
   <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/10.jpg" height="200" /> 
 </p>
 
-### 数据分析
+### 模型设计
+* 首先尝试了直接使用ResNext101_32x8d网络提取特征+Softmax分类器进行多分类的方式，但线上评分只有0.5左右。
+* 结合上述数据分析过程，认为对于数据分布差异较大的情况下，不适合使用softmax进行分类，转而使用SVM分类器增大类间距，并使用两个二分类器 :
+<b>是否是"正常类别"</b>，<b>"吸烟"还是"打电话"</b>。
+
+<img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/11.png" height="300" />
