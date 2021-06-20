@@ -73,4 +73,12 @@
   <img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/14.jpg" height="200" /> 
 </p>
 
+* 为了更好的提升模型的泛化能力，从数据角度出发，我们更加细致的把数据分为了7种场景，并针对各个场景进行数据扩充（翻转等，爬取Ins图像）。对于爬取
+的图像，我们使用<b>伪标签</b>进行了标注。7种场景，和扩充后的数据分布如下图所示：
+
+<img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/16.png" width="100%" />
+
+<img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/17.png" height="300" />
+
+<img src="https://github.com/ielym/HuaLuCup2020/blob/main/datas/train/18.png" height="300" />
 
